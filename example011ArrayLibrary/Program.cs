@@ -10,6 +10,7 @@
 }
 
 void PrintArray(int[]  col)
+
 {
     int counte = col.Length;
     int position = 0;
