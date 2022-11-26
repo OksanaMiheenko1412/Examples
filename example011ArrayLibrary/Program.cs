@@ -18,5 +18,6 @@ void PrintArray(int[]  col)
         Console.WriteLine(col[position]);
         position ++;
     }
+    
 }
 int[] array = new int[10];
