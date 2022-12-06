@@ -47,13 +47,28 @@ Console.WriteLine(year);
 
 string Method4(int count, string c) // char - новый тип данных
 {
-    int i = 0;
-    string result = String.Empty;//String.Empty - изначально result будет
-    //пустой строкой
+   int i = 0;
+   string result = String.Empty;//String.Empty - изначально result будет
+//пустой строкой
        while (i < count)
        {
         result = result + c;
         i++;
+       }
+       return result;
+}
+string res = Method4(10, "asdf");
+Console.WriteLine(res);
+
+// метод 4 через цикл for
+
+
+string Method4(int count, string c) 
+{  
+    string result = String.Empty;
+       for( int i = 0; i < count; i++)
+       {
+        result = result + c;
        }
        return result;
 }
